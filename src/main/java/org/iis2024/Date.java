@@ -60,8 +60,7 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int dia, int mes, int año) { this.day = dia; this.month = mes; this.year = año; }
-
+  public Date(int day, int month, int year) { this.day = day; this.month = month; this.year = year; }git
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
    * month within 1 to 12, and the day valid within the given month and year, considering leap
